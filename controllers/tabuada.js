@@ -10,6 +10,13 @@ const calc = (req, res) => {
     })
 }
 
+const play = (req, res) => {
+    res.render('tabuada/play', {
+        num: req.params.num
+    })
+}
+
+
 module.exports = {
-    list, calc
+    list, calc, play
 }

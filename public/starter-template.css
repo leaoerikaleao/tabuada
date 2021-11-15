@@ -1,7 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Ubuntu:wght@500&display=swap');
+
 body {
   padding-top: 50px;
 }
 .starter-template {
   padding: 40px 15px;
   text-align: center;
+}
+.w-25{
+  width: 50%;
+}
+
+.w-10{
+  width: 7%;
+}
+
+h1{
+  font-family: 'Nunito', sans-serif;
+}
+
+h2{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.panel {
+  border-bottom: 5px solid #000000c7;
+}
+
+.panel-footer{
+  background-color: #fff;
+  border:none;
+}
+
+.brand-logo{
+  height: 30px;
+}
+
+li{
+    list-style-type: none;
+    padding:0px;
+}
+
+.btn-button {
+  width: 50%;
+  margin: 5px;
+  font-family: 'Nunito', sans-serif;
+  font-size: large;
+  background-color: #11aca5;
+
+  color: #fff;
+}
+
+.btn-button:hover,.btn-button:focus, .btn-button:active, .btn-button.active {
+  width: 50%;
+  margin: 5px;
+  background-color: #ff6e6e;
+  color: #fff;
+  opacity:1;
 }

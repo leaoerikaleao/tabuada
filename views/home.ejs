@@ -1,8 +1,14 @@
 <%- include ('partials/header') %>
 
     <div class="starter-template">
-        <h1>Tabuada</h1>
-        <p class="lead">Vamos gerar a tabuada?</p>
+        
+        <h1 class="text-center">Vamos estudar a tabuada?</h1>
+        <div class="container">
+            <% for(let i=1; i<=10; i++) { %>
+                <a class="btn btn-button" href="/tabuadas/do/<%= i %>">Tabuada do <%= i %> </a></li>
+                <% } %>
+        </div>
+            
     </div>
 
 <%- include ('partials/footer') %>
