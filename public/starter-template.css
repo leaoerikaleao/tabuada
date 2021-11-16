@@ -11,8 +11,9 @@ body {
   width: 50%;
 }
 
-.w-10{
-  width: 7%;
+.w-max-15{
+  max-width: 15%;
+  display: inline-block;
 }
 
 h1{
@@ -24,13 +25,21 @@ h2{
 }
 
 .panel {
-  border-bottom: 5px solid #000000c7;
+  border-bottom: none;
+  box-shadow:none;
 }
 
 .panel-footer{
-  background-color: #fff;
+  background-color:unset;
+  border:none;
+  border-top:none;
+  padding: 30px 0px;
+}
+
+.panel-body{
   border:none;
 }
+
 
 .brand-logo{
   height: 30px;
@@ -47,7 +56,6 @@ li{
   font-family: 'Nunito', sans-serif;
   font-size: large;
   background-color: #11aca5;
-
   color: #fff;
 }
 
@@ -58,3 +66,12 @@ li{
   color: #fff;
   opacity:1;
 }
+
+.card-tab{
+  border: 2px solid #000000c7;
+  display: inline-block;
+  width: 33%;
+  padding: 5px;
+  margin: 5px;
+}
+
