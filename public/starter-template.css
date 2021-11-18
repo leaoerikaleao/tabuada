@@ -75,3 +75,14 @@ li{
   margin: 5px;
 }
 
+footer{
+    font-family: 'Nunito', sans-serif;
+}
+
+footer a {
+    color: #3caca5;
+;}
+
+footer a:hover, footer a:active {
+    color: #f46e6f;
+;}
